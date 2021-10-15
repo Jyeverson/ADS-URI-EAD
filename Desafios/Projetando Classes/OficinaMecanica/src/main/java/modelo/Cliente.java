@@ -12,7 +12,13 @@ public class Cliente {
     private String fone;
     private String email;
 
-    public void Cliente(String cpf,String nome, String endereco, String fone , String email){
+    public void Cliente(
+            String cpf,
+            String nome,
+            String endereco,
+            String fone,
+            String email
+    ){
     
         this.cpf = cpf;
         this.email = email;

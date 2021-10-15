@@ -13,7 +13,14 @@ public class Veiculo {
     private String cor;
     private Cliente cliente;
     
-    public void Veiculo(String placa,String modelo,int ano, String fabricante, String cor, Cliente cliente){
+    public void Veiculo(
+            String placa,
+            String modelo,
+            int ano,
+            String fabricante,
+            String cor,
+            Cliente cliente
+    ){
         this.ano = ano;
         this.cor = cor;
         this.fabricante = fabricante;
@@ -24,8 +31,13 @@ public class Veiculo {
     }
     @Override
      public String toString(){
-        return cliente+ " Veículo: " + "," + placa + "," + ano + "," + fabricante + "," + modelo + "," + cor;
-    
+        return cliente+
+                " Veículo: " + "," +
+                placa + "," +
+                ano + "," +
+                fabricante + "," +
+                modelo + "," +
+                cor;
     }
     
     public String getPlaca() {
