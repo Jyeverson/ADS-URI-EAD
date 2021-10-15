@@ -30,15 +30,4 @@ public class Aluno {
     String email;
     int matricula;
 
-    public static void Principal(String[] args) {
-
-        Aluno aluno = new Aluno();
-        aluno.nome = "Fulano";
-        aluno.endereco = "Rua dos bobo Nº 0";
-        aluno.telefone = 999999999;
-        aluno.email = "FulanoADS@gmail.com";
-        aluno.matricula = 999;
-        
-    }
-
 }
