@@ -24,6 +24,7 @@ Para isso, utilize uma linguagem de programação orientada a objetos.
 */
 
 public class Aluno {
+    
     String nome;
     String endereco;
     int telefone;
