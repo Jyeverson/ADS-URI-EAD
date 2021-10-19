@@ -1,5 +1,4 @@
 package encapsulamento;
-
 /**
  *
  * @author jyeverson.madalozo
