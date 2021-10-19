@@ -23,6 +23,11 @@ Para isso, utilize uma linguagem de programação orientada a objetos.
 
 */
 
+/**
+ *
+ * @author jyeverson.madalozo
+ */
+
 public class Aluno {
     
     String nome;
