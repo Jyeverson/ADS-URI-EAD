@@ -1,17 +1,17 @@
 package encapsulamento;
 
 /* 
-Você trabalha como analista/programador em uma fábrica de software e foi
-encarregado de criar uma aplicação que calcule o volume de concreto para o
-trabalho com vigas em construção civil. Sabe-se que a fórmula para o cálculo
-deste volume é (base x altura x comprimento).
+You work as an analyst / programmer in a software factory and was in charge of
+creating an application that calculates the volume of concrete for the work
+with beams in civil construction. It is known that the formula for the
+calculation of this volume is (base x height x length).
 
-O cliente necessita de uma aplicação que solicite, via caixa de diálogo, os
-dados referentes à base, altura e comprimento das vigas a serem trabalhadas e
-seja informado o resultado através de uma caixa de mensagem.
+The customer needs an application that requests, via a dialog box, the
+data regarding the base, height and length of the beams to be worked and
+the result is informed through a message box.
 
-Sua tarefa é implementar esta aplicação em uma linguagem de programação
-orientada a objetos; faça uso das técnicas de encapsulamento.
+Your task is to implement this application in a programming language
+object-oriented; make use of encapsulation techniques.
 */
 
 import javax.swing.JOptionPane;
