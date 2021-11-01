@@ -1,5 +1,30 @@
 package heranca;
 
+/*
+Trabalhar com herança em orientação a objetos pode nos trazer muitas vantagens,
+ como a economia de código; entretanto, é importante termos um bom conhecimento
+  sobre o assunto para aplicá-lo da melhor forma em nossos projetos.
+
+Você trabalha como analista/programador em uma fábrica de software e foi encarregado
+ de atender uma locadora de veículos. O cliente necessita realizar o cadastro de sua
+  frota, que é constituída por veículos de passageiros e de carga.
+
+- Espécie (se o veículo é de carga ou de passageiro), placa,
+ procedência (nacional ou importado), marca, modelo, ano do modelo,
+  ano da fabricação, chassi, renavam, cor externa, cor interna, combustível,
+   motor, quilometragem, consumo médio, número de portas, número de passageiros e opcionais.
+
+- Espécie (se o veículo é de carga ou de passageiro), placa,
+ procedência (nacional ou importado), marca, modelo, ano do modelo,
+  ano da fabricação, chassi, renavam, combustível, motor, quilometragem,
+   consumo médio, capacidade máxima de carga em kg, altura, largura e profundidade.
+
+
+Sua tarefa é implementar as classes de modelo em uma linguagem de programação orientada
+ a objetos. Considere a possibilidade de criar uma estrutura de herança.
+
+*/
+
 /**
  *
  * @author jyeverson.madalozo
