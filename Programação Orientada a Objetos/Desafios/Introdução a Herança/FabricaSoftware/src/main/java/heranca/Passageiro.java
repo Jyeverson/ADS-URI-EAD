@@ -1,15 +1,17 @@
 package heranca;
+import heranca.Veiculos;
 
 /**
  *
  * @author jyeverson.madalozo
  */
 public class Passageiro extends Veiculos{
-String corExterna;
-String corInterna;
-String qtPortas;
-String qtPassageiros;
-String opcionais;
+
+    String corExterna;
+    String corInterna;
+    String qtPortas;
+    String qtPassageiros;
+    String opcionais;
 
     public String getCorExterna() {
         return corExterna;
@@ -50,5 +52,4 @@ String opcionais;
     public void setOpcionais(String opcionais) {
         this.opcionais = opcionais;
     }
-
 }
