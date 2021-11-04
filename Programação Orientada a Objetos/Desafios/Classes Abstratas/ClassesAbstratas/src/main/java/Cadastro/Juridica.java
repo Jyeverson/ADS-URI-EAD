@@ -1,16 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Cadastro;
+package cadastro;
 
 /**
  *
  * @author jyeverson.madalozo
  */
-public class Juridica {
+public class Juridica extends Pessoa{
     String razaoSocial, nomeFantasia,inscricaoMunicipal,inscricaoEstadual,cnpj,website;
-    Pessoa pessoa = new Pessoa();
+    String numero, bairro, cidade, uf, telefone, email, disciplina, logradouro;
+    
+    public Juridica(String numero,String bairro, String cidade, String uf, String telefone, String email, String disciplina, String logradouro){
+    super(numero, bairro, cidade, uf, telefone, email, disciplina, logradouro);
    
+    }
+   
+    
 }
